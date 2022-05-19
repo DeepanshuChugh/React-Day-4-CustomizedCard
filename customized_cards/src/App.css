@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.mainbody{
+  /* background: #F1921A; */
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+
+  
+}
+.leftbody{
+
+font-size: 20px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+margin-left:40px;
+text-align: left;
+padding-top: 10px;
+padding-bottom: 10px;
+
+
+}
+.rightbody{
+
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+}
+.casebtn{
+  color: white;
+  background: black;
+  width: 160px;
+  height: 35px;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 25px;
+}
+img{
+  height: 30px;
+  width: 50px;
+}
+
+i{
+  position: relative;
+  right: 30px;
+  margin-top: 260px;
+  font-size: 30px;
+
+}
